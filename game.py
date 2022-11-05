@@ -18,8 +18,8 @@ class Game:
         self.wn = wn
         self.snake = Snake(turtle)
         self.apple = Apple(turtle).apple
-        self.border = GameBorder(turtle).border
-        
+        self.border = GameBorder(turtle).draw()
+
     def mainloop(self) -> turtle._Screen:
         self.wn.mainloop()    
     
